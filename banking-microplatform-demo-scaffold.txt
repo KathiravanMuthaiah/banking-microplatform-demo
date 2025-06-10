@@ -1,0 +1,37 @@
+banking-microplatform-demo/
+├── services/
+│   ├── user-service/
+│   ├── account-service/
+│   ├── transaction-service/
+│   ├── audit-service/
+│   └── shared-lib/
+├── aws/
+│   ├── lambda/
+│   │   └── customer-upload-processor/
+│   ├── stepfunctions/
+│   ├── s3/
+│   └── terraform/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── outputs.tf
+├── rosa/
+│   ├── kafka/
+│   ├── keycloak/
+│   ├── infinispan/
+│   ├── postgres/
+│   ├── secrets/
+│   └── manifests/
+├── ui/
+│   └── streamlit-ui/
+│       ├── app.py
+│       └── requirements.txt
+├── gateway/
+│   └── kong-config/
+├── docs/
+│   ├── requirements.md
+│   ├── architecture.png
+│   └── flow-diagrams/
+├── .github/
+│   └── workflows/
+├── .gitignore
+└── README.md
